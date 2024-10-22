@@ -1,0 +1,12 @@
+# Ignorar node_modules do host
+node_modules
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração do Docker
+Dockerfile
+
+# Ignorar arquivos temporários e de sistema
+.DS_Store
+.env

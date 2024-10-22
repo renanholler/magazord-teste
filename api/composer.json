@@ -1,0 +1,27 @@
+{
+    "name": "renan/api",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Renan Holler",
+            "email": "rrholler@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "doctrine/orm": "^2.15",
+        "doctrine/dbal": "^3.6",
+        "php-di/php-di": "^7.0",
+        "nyholm/psr7": "^1.5",
+        "nyholm/psr7-server": "^1.0",
+        "laminas/laminas-httphandlerrunner": "^2.10",
+        "symfony/cache": "^7.1"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
